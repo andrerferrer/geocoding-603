@@ -22,9 +22,11 @@ ActiveStorage.start()
 import "bootstrap";
 
 // Internal imports, e.g:
-// import { initSelect2 } from '../components/init_select2';
+import { initMapboxgl } from '../plugins/init_mapboxgl';
+import { initPlaces } from '../plugins/init_places';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
-  // initSelect2();
+  initMapboxgl();
+  initPlaces();
 });
