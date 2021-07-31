@@ -1,6 +1,9 @@
 {
   "name": "geocoding-603",
   "private": true,
+  "engines": {
+    "node": "14.15.4"
+  },
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^4.7.2",
     "@rails/actioncable": "^6.0.0",
